@@ -1,0 +1,28 @@
+<header class="navbar">
+  <div class="container navbar__inner">
+    <a href="{{ '/' | relative_url }}" class="navbar__logo" aria-label="{{ site.title }} home">
+      <img src="{{ '/static/assets/logo.png' | relative_url }}" alt="{{ site.title }}">
+    </a>
+    <nav class="navbar__links" id="navbar-links" aria-label="Main navigation">
+      <a href="{{ '/books/' | relative_url }}"{% if page.url contains '/books' %} class="active" aria-current="page"{% endif %}>Books</a>
+      <a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog' %} class="active" aria-current="page"{% endif %}>Blog</a>
+    </nav>
+    <button class="navbar__toggle" id="navbar-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navbar-links">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+  </div>
+</header>
+<script>
+  (function () {
+    var toggle = document.getElementById('navbar-toggle');
+    var links = document.getElementById('navbar-links');
+    if (toggle && links) {
+      toggle.addEventListener('click', function () {
+        var isOpen = links.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
+    }
+  })();
+</script>

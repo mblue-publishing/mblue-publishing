@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="book-detail">
+  <div class="container">
+
+    <div class="book-detail__header">
+      <div class="book-detail__cover">
+        <img src="{{ page.cover }}" alt="{{ page.title }} cover" width="400" height="600">
+      </div>
+      <div class="book-detail__meta">
+        <p class="book-detail__label">M-Blue Publishing</p>
+        <h1 class="book-detail__title">{{ page.title }}</h1>
+        <p class="book-detail__author">by {{ page.author }}</p>
+        <p class="book-detail__date">Published {{ page.date | date: "%B %Y" }}</p>
+        <p class="book-detail__description">{{ page.description }}</p>
+      </div>
+    </div>
+
+    {% if content and content != '' %}
+    <div class="book-detail__body">
+      {{ content }}
+    </div>
+    {% endif %}
+
+    <div class="author-section{% unless page.author_photo and page.author_photo != '' %} author-section--no-photo{% endunless %}">
+      {% if page.author_photo and page.author_photo != '' %}
+      <img src="{{ page.author_photo }}" alt="{{ page.author }}" class="author-section__photo" width="100" height="100">
+      {% endif %}
+      <div>
+        <p class="author-section__label">About the Author</p>
+        <h2 class="author-section__name">{{ page.author }}</h2>
+        <p class="author-section__bio">{{ page.author_bio }}</p>
+      </div>
+    </div>
+
+    <a href="{{ '/books/' | relative_url }}" class="back-link">&larr; Back to Books</a>
+
+  </div>
+</div>

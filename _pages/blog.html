@@ -1,0 +1,30 @@
+---
+layout: default
+title: Blog
+description: Insights from M-Blue Publishing on the moments when life changes course and what comes next.
+permalink: /blog/
+pagination:
+  enabled: true
+  collection: posts
+  per_page: 9
+  sort_field: date
+  sort_reverse: true
+---
+
+<div class="page-banner">
+  <div class="container">
+    <h1 class="page-banner__title">From the Blog</h1>
+    <p class="page-banner__subtitle">Insights on the moments when life changes course and new beginnings</p>
+  </div>
+</div>
+
+<section class="listing-section">
+  <div class="container">
+    <div class="grid-3">
+      {% for post in paginator.posts %}
+        {% include post-card.html post=post %}
+      {% endfor %}
+    </div>
+    {% include pagination.html %}
+  </div>
+</section>

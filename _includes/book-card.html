@@ -1,0 +1,13 @@
+{% assign book = include.book %}
+<article class="book-card">
+  <a href="{{ book.url | relative_url }}" class="book-card__overlay" aria-label="View {{ book.title }}"></a>
+  <div class="book-card__cover">
+    <img src="{{ book.cover }}" alt="{{ book.title }} cover" loading="lazy" width="400" height="600">
+  </div>
+  <div class="book-card__body">
+    <h3 class="book-card__title">{{ book.title }}</h3>
+    <p class="book-card__author">by {{ book.author }}</p>
+    <p class="book-card__description">{{ book.description }}</p>
+    <span class="book-card__link" aria-hidden="true">View Book &rarr;</span>
+  </div>
+</article>

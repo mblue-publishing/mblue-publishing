@@ -1,0 +1,59 @@
+---
+layout: default
+title: Home
+description: Non-fiction for the moments when life changes course and you need a practical way forward.
+---
+
+{% assign all_books = site.books | sort: "date" | reverse %}
+{% assign hero_book = all_books | first %}
+
+<!-- HERO — latest release -->
+{% if hero_book %}
+<section class="hero">
+  <div class="container">
+    <div class="hero__grid">
+      <div class="hero__cover">
+        <img src="{{ hero_book.cover }}" alt="{{ hero_book.title }} cover" width="400" height="600">
+      </div>
+      <div class="hero__content">
+        <p class="hero__label">Latest Release</p>
+        <h1 class="hero__title">{{ hero_book.title }}</h1>
+        <p class="hero__author">by {{ hero_book.author }}</p>
+        <p class="hero__description">{{ hero_book.description }}</p>
+        <a href="{{ hero_book.url | relative_url }}" class="hero__link">View Book &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- RECENT RELEASES — next 3 by date -->
+{% assign recent_count = all_books | size | minus: 1 %}
+{% if recent_count > 0 %}
+<section class="section-releases">
+  <div class="container">
+    <h2 class="section-heading">Recent Releases</h2>
+    <div class="grid-3">
+      {% for book in all_books limit:3 offset:1 %}
+        {% include book-card.html book=book %}
+      {% endfor %}
+    </div>
+    <div class="section-see-all">
+      <a href="{{ '/books/' | relative_url }}">See all books &rarr;</a>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- MISSION STATEMENT -->
+<section class="section-mission">
+  <div class="container">
+    <div class="section-mission__inner">
+      <h2 class="section-mission__heading">About M-Blue Publishing</h2>
+      <div class="section-mission__text">
+        <p>Life does not always give notice before it changes. M-Blue Publishing exists for people navigating that kind of turning point, and we publish non-fiction that is honest about the difficulty and practical about what comes next.</p>
+        <p>We believe the people closest to a struggle are best placed to write about it, so we built M-Blue to support them in doing it themselves. Authors shape the book; we help it find its readers, giving independent voices the reach usually reserved for traditional publishing.</p>
+      </div>
+    </div>
+  </div>
+</section>

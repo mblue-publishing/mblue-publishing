@@ -1,0 +1,9 @@
+{% assign post = include.post %}
+<article class="post-card">
+  <a href="{{ post.url | relative_url }}" class="post-card__overlay" aria-label="Read {{ post.title }}"></a>
+  <p class="post-card__date">{{ post.date | date: "%-d %B %Y" }}</p>
+  <h3 class="post-card__title">{{ post.title }}</h3>
+  <p class="post-card__author">by {{ post.author }}</p>
+  <p class="post-card__excerpt">{{ post.excerpt | strip_html | strip_newlines }}</p>
+  <span class="post-card__link" aria-hidden="true">Read More &rarr;</span>
+</article>

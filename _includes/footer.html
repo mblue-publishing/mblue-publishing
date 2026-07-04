@@ -1,0 +1,31 @@
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img src="{{ '/static/assets/logo.png' | relative_url }}" alt="{{ site.title }}">
+        <p class="footer__tagline">Non-fiction for the moments when life changes course and you need a practical way forward.</p>
+      </div>
+      <div>
+        <p class="footer__heading">Navigate</p>
+        <nav class="footer__nav" aria-label="Footer navigation">
+          <a href="{{ '/books/' | relative_url }}">Books</a>
+          <a href="{{ '/blog/' | relative_url }}">Blog</a>
+          <a href="{{ '/privacy-policy/' | relative_url }}">Privacy Policy</a>
+          <a href="{{ '/terms-of-use/' | relative_url }}">Terms of Use</a>
+        </nav>
+      </div>
+      <div>
+        <p class="footer__heading">Get in Touch</p>
+        <p class="footer__contact-text">
+          Questions or book proposals?<br>
+          <a href="mailto:mblue.publishing@proton.me">mblue.publishing@proton.me</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container">
+      <p>&copy; {{ 'now' | date: "%Y" }} M-Blue Publishing. All rights reserved.</p>
+    </div>
+  </div>
+</footer>

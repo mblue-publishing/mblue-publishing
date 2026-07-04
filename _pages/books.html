@@ -1,0 +1,24 @@
+---
+layout: default
+title: Books
+description: Browse all books published by M-Blue Publishing, non-fiction for the moments when life changes course and you need a practical way forward.
+permalink: /books/
+---
+
+<div class="page-banner">
+  <div class="container">
+    <h1 class="page-banner__title">Our Books</h1>
+    <p class="page-banner__subtitle">Non-fiction for the moments when life changes course</p>
+  </div>
+</div>
+
+<section class="listing-section">
+  <div class="container">
+    {% assign sorted_books = site.books | sort: 'date' | reverse %}
+    <div class="grid-3">
+      {% for book in sorted_books %}
+        {% include book-card.html book=book %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
