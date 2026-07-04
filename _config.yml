@@ -1,0 +1,54 @@
+title: M-Blue Publishing
+description: >
+  Non-fiction for the moments when life changes course and you need a
+  practical way forward.
+baseurl: ""
+url: "https://mblue-publishing.com"
+author: M-Blue Publishing
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+include:
+  - _pages
+
+collections:
+  books:
+    output: true
+    permalink: /books/:slug/
+    sort_by: date
+
+defaults:
+  - scope:
+      path: ""
+      type: books
+    values:
+      layout: book
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /blog/:slug/
+
+plugins:
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+pagination:
+  enabled: true
+  per_page: 9
+  permalink: "page/:num/"
+  sort_field: "date"
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - implementation_plan.md
+  - vendor/
