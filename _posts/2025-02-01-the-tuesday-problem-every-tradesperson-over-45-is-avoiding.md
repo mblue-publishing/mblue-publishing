@@ -1,6 +1,6 @@
 ---
 title: "The Tuesday Problem Every Tradesperson Over 45 Is Avoiding"
-date: 2026-06-04
+date: 2025-02-01
 author: "Ray Whitfield"
 excerpt: "The risk isn't retiring too early. It's that something happens on an ordinary Tuesday and you have no plan for what comes after. Here's the math most tradespeople refuse to run, and why waiting compounds against you."
 ---

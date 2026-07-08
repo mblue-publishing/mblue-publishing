@@ -1,6 +1,6 @@
 ---
 title: "You Don't Have a Skills Gap. You Have a Vocabulary Gap."
-date: 2026-005-04
+date: 2025-01-01
 author: "Sarah Briggs"
 excerpt: "Your skills did not expire during your career break. The language for them moved on without you. How to translate what you know, and what you did while you were away, into words the market can read."
 ---

@@ -1,6 +1,6 @@
 ---
 title: "The $13,800 Tax Bill I Never Saw Coming: A Solo Plumber's Guide to Self-Employment Tax"
-date: 2026-07-04
+date: 2025-03-01
 author: "Kevin Dougherty"
 excerpt: "In April 2019 I owed $13,800 I had not set aside. Here is the self-employment tax system nobody explains to tradespeople who go solo, and the two-account setup that makes April a non-event."
 ---

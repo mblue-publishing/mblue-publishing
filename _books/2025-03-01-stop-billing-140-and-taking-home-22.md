@@ -1,14 +1,14 @@
 ---
 title: "Stop Billing $140 and Taking Home $22 - The Licensed Plumber's Guide to Keeping What You Earn"
 author: "Kevin Dougherty"
-date: 2026-07-04
+date: 2026-03-01
 cover: "/static/covers/03_cover.jpg"
-description: "The complete financial and operational playbook for starting a solo plumbing operation, from month zero through month eighteen"
+description: "The complete financial and operational playbook for starting a solo plumbing operation, from month zero through month eighteen."
 author_bio: "Kevin Dougherty spent 15 years as a licensed plumber for a private-equity-owned company before doing the math on a napkin: he billed at $132 an hour and took home $19.40. He went solo in 2018, learned pricing and tax mistakes the hard way, and created this book so you can avoid the same mistakes."
 author_photo: ""
 ---
 
-## Description
+## Book Description
 
 The company billed you out at $140 an hour. You took home $22.
 

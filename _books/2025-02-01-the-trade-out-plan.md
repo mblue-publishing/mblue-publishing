@@ -1,14 +1,14 @@
 ---
 title: "The Trade-Out Plan - A Tradesperson's Step-by-Step Guide to Building Your Exit Before the Job Builds It for You"
 author: "Ray Whitfield"
-date: 2026-06-04
+date: 2025-02-01
 cover: "/static/covers/02_cover.jpg"
 description: "Four concrete exit paths for blue collar worker with real income numbers, credential checklists, and 90-day milestones you can start this weekend."
 author_bio: "Ray Whitfield spent 24 years as a licensed master electrician, 12 of them running his own contracting business. A 2017 fall left him injured and facing an uncertain future with no exit plan. He built one himself, earning an inspector certification, moving into sales, and teaching, then wrote the guide he wished he'd had."
 author_photo: ""
 ---
 
-## Description
+## Book Description
 
 You know what happens on that Tuesday.
 

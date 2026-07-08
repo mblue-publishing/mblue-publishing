@@ -1,6 +1,6 @@
 ---
 title: "What Your Trade License Is Actually Worth Off the Job Site"
-date: 2026-06-04
+date: 2025-02-01
 author: "Ray Whitfield"
 excerpt: "Tradespeople carry a thought that goes: everything I know lives in my hands. That thought is wrong, and it's expensive. Here's what a master license and 20 years of field experience actually convert to, with real numbers."
 ---

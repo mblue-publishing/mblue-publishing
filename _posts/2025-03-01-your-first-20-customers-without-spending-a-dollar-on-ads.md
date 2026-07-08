@@ -1,6 +1,6 @@
 ---
 title: "Your First 20 Customers Without Spending a Dollar on Ads"
-date: 2026-07-04
+date: 2025-03-01
 author: "Kevin Dougherty"
 excerpt: "The customer who calls a new solo plumber in week one does not come from a Google ad. A working plumber lays out the 20-name list, the review flywheel, and the referral network that fill a schedule for free."
 ---

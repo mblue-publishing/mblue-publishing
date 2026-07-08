@@ -1,6 +1,6 @@
 ---
 title: "The Napkin Math That Made Me Leave: Where $140 an Hour Goes When You Take Home $22"
-date: 2026-07-04
+date: 2025-03-01
 author: "Kevin Dougherty"
 excerpt: "A master plumber breaks down exactly where the money goes between a shop's $140 billing rate and a technician's $22 take-home, and what the same math looks like when you run one truck yourself."
 ---

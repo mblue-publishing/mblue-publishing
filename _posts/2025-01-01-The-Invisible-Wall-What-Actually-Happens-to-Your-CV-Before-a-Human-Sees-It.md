@@ -1,6 +1,6 @@
 ---
 title: "The Invisible Wall: What Actually Happens to Your CV Before a Human Sees It"
-date: 2026-05-04
+date: 2025-01-01
 author: "Sarah Briggs"
 excerpt: "Most job applications are now scored by software before a person ever reads them. A former HR director explains how ATS and AI screening quietly filter out women with career gaps, and exactly how to get through."
 ---

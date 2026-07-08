@@ -1,6 +1,6 @@
 ---
 title: "How to Build Your Exit While You're Still On the Tools"
-date: 2026-06-04
+date: 2025-02-01
 author: "Ray Whitfield"
 excerpt: "The worst time to build a second income is after the body forces the decision. Here's the working method: a construction schedule, not a wish list, with the specific first 90 days for four realistic paths."
 ---

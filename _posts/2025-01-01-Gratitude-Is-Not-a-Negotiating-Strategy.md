@@ -1,6 +1,6 @@
 ---
 title: "Gratitude Is Not a Negotiating Strategy"
-date: 2026-05-04
+date: 2025-01-01
 author: "Sarah Briggs"
 excerpt: "After months of silence, a job offer feels like validation, and that feeling costs returning women thousands of pounds a year, compounding for the rest of their careers. What to do between the offer and the yes."
 ---
